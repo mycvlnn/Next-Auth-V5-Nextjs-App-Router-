@@ -45,11 +45,11 @@ Link: https://authjs.dev/reference/adapter/prisma
 
 Neon là một dịch vụ serverless Postgres được quản lý hoàn toàn. Nó sử dụng sức mạnh của Postgres, một hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở phổ biến, và cung cấp một số lợi ích:
 
-Serverless:
+**Serverless:**
 
 Không cần phải lo lắng về việc cung cấp và quản lý máy chủ.
 Chỉ thanh toán cho những tài nguyên mà bạn sử dụng.
-Postgres:
+**Postgres:**
 
 Độ tin cậy cao.
 Khả năng mở rộng tốt.
@@ -60,12 +60,12 @@ Neon xử lý tất cả các công việc phức tạp trong việc quản lý 
 Mức miễn phí hào phóng:
 
 Dễ dàng sử dụng cho các dự án cá nhân hoặc thử nghiệm trước khi cam kết.
-Lợi ích chính của Neon:
+**Lợi ích chính của Neon:**
 
 Tự động mở rộng: Neon tự động mở rộng tài nguyên tính toán dựa trên nhu cầu của ứng dụng bạn.
 Phân nhánh: Neon cho phép phân nhánh cơ sở dữ liệu dễ dàng, rất hữu ích cho các quy trình phát triển như tạo các nhánh riêng biệt để thử nghiệm và triển khai.
 Lưu trữ không giới hạn: Neon mở rộng dung lượng lưu trữ độc lập với tính toán.
-Neon phù hợp với ai?
+**Neon phù hợp với ai?**
 
 Các nhà phát triển muốn tận dụng sức mạnh của Postgres mà không cần quản lý máy chủ.
 Cần một giải pháp cơ sở dữ liệu có thể mở rộng và tiết kiệm chi phí.
