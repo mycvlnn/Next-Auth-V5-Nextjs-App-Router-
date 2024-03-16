@@ -14,7 +14,7 @@ const LoginButton: React.FC<IProps> = ({ children, mode = "redirect", asChild })
 
     const onClick = () => {
         console.log("Clicked");
-        router.push("/login");
+        router.push("/auth/login");
     };
 
     if (mode === "modal") {
