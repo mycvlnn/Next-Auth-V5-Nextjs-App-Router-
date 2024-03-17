@@ -71,3 +71,14 @@ Các nhà phát triển muốn tận dụng sức mạnh của Postgres mà khô
 Cần một giải pháp cơ sở dữ liệu có thể mở rộng và tiết kiệm chi phí.
 Đánh giá cao tính linh hoạt của phân nhánh cơ sở dữ liệu cho phát triển.
 Đang xây dựng các ứng dụng có khối lượng dữ liệu lớn tiềm năng.
+
+# Tổng hợp các câu lệnh liên quan đến Prisma trong project
+
+11734 npm i -D prisma
+11736 npm i @prisma/client
+11737 npx prisma init
+11741 npm i @auth/prisma-adapter
+11783 npx prisma studio
+11784 npx prisma generate
+11785 npx prisma migrate reset
+11786 npx prisma db push

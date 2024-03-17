@@ -8,14 +8,14 @@ const { auth: middleware } = NextAuth(authConfig);
 
 export default middleware((req) => {
     const { nextUrl } = req;
+    console.log({ req, nextUrl });
+    console.log({ auth: req.auth });
 
     const isLoggedIn = !!req.auth; // Biến dùng để kiểm tra xem đã login hay chưa
 
     const isApiAuthRoute = nextUrl.pathname.startsWith(apiAuthPrefix);
     const isPublicRoute = publicRoutes.includes(nextUrl.pathname);
     const isAuthRoute = authRoutes.includes(nextUrl.pathname);
-
-    console.log({ isApiAuthRoute });
 
     // Trong trường hợp truy cập vào api thì return luôn
     if (isApiAuthRoute) {
